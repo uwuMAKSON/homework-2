@@ -8,3 +8,8 @@ html,body{
     display: flex;
     align-items: flex-start;
 }
+nav {
+    margin-left:  360px;
+    margin-top: 25px;
+    font-weight: bold;
+}
