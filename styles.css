@@ -31,3 +31,7 @@ a{
     color: white;
     border-bottom: solid 5px white;
 }
+.example-ul a:hover{
+    color: white;
+    border-bottom: solid 5px rgba(255, 255, 255, .5);
+}
