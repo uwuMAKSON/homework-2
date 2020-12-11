@@ -13,3 +13,6 @@ nav {
     margin-top: 25px;
     font-weight: bold;
 }
+.example-ul {
+    display: flex;
+}
