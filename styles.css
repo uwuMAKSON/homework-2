@@ -17,6 +17,7 @@ nav {
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
-   
-
+    list-style-type: none;
+    color: white;
+    margin-right: 10px;
 }
