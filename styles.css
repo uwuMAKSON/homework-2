@@ -44,3 +44,10 @@ main p{
     width: 450px;
     font-weight:300px;
 }
+main button{
+    padding: 20px;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-weight: bold;
+}
