@@ -5,12 +5,14 @@ html,body{
     overflow: hidden;
 }
 .example-2 {
+    color: white;
     display: flex;
     align-items: flex-start;
+   margin-left: 345px;
 }
 nav {
-    margin-left:  360px;
-    margin-top: 25px;
+    margin-left:  350px;
+    margin-top: 20px;
     font-weight: bold;
 }
 .example-ul {
@@ -19,7 +21,7 @@ nav {
     justify-content: space-around;
     list-style-type: none;
     color: white;
-    margin-right: 10px;
+   
 }
 a{
     color: rgba(255, 255, 255, 0.479);
@@ -51,3 +53,29 @@ main button{
     border-radius: 5px;
     font-weight: bold;
 }
+.example-4{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+    line-height: 1.5;
+}
+.example-5_button{
+    color: rgba(255, 255, 255, .5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 38%;
+}
+footer .example-6{
+    color: white;
+}
+footer .example-6:hover{
+    text-decoration: underline;
+}
+@media (max-width:672px){
+    .example-2{
+      flex-wrap: wrap;
+  }
+ } 
