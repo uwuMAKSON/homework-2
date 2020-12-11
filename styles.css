@@ -15,4 +15,5 @@ nav {
 }
 .example-ul {
     display: flex;
+    align-items: flex-end;
 }
